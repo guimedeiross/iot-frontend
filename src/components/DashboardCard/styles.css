@@ -1,10 +1,6 @@
 .dashboard--container {
-    display: flex;
-    width: 100vh;
-    justify-content: center;
-    align-items: center;
-}
-.dashboard--card {
     flex: 1;
     background-color: red;
+    /* background-color: #191c24; */
 }
+

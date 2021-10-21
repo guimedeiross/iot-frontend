@@ -3,8 +3,13 @@ import './styles.css'
 
 export default () => {
     return (
-        <section className="dashboard--container">
-            <div className="dashboard--card">Card</div>
-        </section>
+        <div className="dashboard--container">
+            <div className="dashboard--card">
+                <div className="dashboard--title"></div>
+                <div className="dashboard--graphic">
+                    <div className="dashboard--value"></div>
+                </div>
+            </div>
+        </div>
     )
 }
