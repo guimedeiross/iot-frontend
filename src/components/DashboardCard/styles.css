@@ -1,6 +1,11 @@
 .dashboard--container {
-    flex: 1;
-    background-color: red;
-    /* background-color: #191c24; */
+    height: 100vh;
+}
+.dashboard--card {
+    width: 20%;
+    height: 50%;
+    background-color: #191c24;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
 }
 
