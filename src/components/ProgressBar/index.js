@@ -4,6 +4,7 @@ import './styles.css'
 export default () => {
     return (
         <div className="box">
+            <h4 className="dashboard--title">Sensor de Temperatura</h4>
             <div className="percent">
                 <svg>
                     <circle cx="70" cy="70" r="70"></circle>
