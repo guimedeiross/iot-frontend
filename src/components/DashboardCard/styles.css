@@ -4,13 +4,11 @@
     justify-content: space-around;
     align-items: center;
 }
-/* .dashboard--graphic {
-    width: 80%;
-    height: 70%;
-    border: 20px solid #00d25b; /*orange=#f2a654,  yellow=#f6e84e
-    border-radius: 100%;
-    align-self: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
+
+@media (max-width:760px) {
+    .dashboard--container {
+        height: 100vh;
+        display: flex;
+        flex: 1;
+    }
+}

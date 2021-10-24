@@ -54,9 +54,9 @@
 
 }
 .box .percent svg circle:nth-child(2) {
-    stroke-dashoffset: calc(440 - (440 * 50) / 100); /* O valor 50 é a porcentagem */
+    /* stroke-dashoffset: calc(440 - (440 * 50) / 100); O valor 50 é a porcentagem 
     stroke: #03A9F4;
-
+*/
 }
 .box .percent .number {
     position: absolute;
@@ -86,4 +86,11 @@
 }
 .dashboard--title {
     font-size: 1.5rem;
+}
+
+@media (max-width:760px) {
+    .box {
+        width: 90%;
+        height: 60%;
+    }
 }

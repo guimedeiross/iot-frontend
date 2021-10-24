@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:300;400;500,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300;400;500,700,900&display=swap');
 * {
   box-sizing: border-box;
 }
@@ -13,4 +13,37 @@ body {
 .page {
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+
+.arrowDown {
+  display: none;
+  width: 40px;
+  height: 40px;
+  background-size: contain;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #FFF;
+
+
+  animation-name: arrowDown;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;  
+}
+
+@keyframes arrowDown{
+  0%{
+      top: 0px;
+  }
+  100%{
+      top: 20px;
+  }
+}
+
+@media (max-width:760px) {
+  .page {
+    grid-template-columns: 1fr;
+  }
 }

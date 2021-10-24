@@ -11,4 +11,9 @@ const getAll = async () => {
     return allValues
 }
 
-export { getAll }
+const getSingle = async () => {
+    const card = await basicFetch('/getSingle/18')
+    return card
+}
+
+export { getAll, getSingle }
