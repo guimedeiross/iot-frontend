@@ -40,7 +40,7 @@ export default () => {
 
   return (
     <div className="page">
-      {sensors.map((sensor, key) => (
+      {sensors && sensors.map((sensor, key) => (
         <DashboardCard key={key}
           name={sensor.name_sensor}
           value={sensor.value_sensor}
