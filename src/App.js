@@ -30,7 +30,7 @@ export default () => {
   useEffect(() => {
     (async () => {
       setSensors(await getSensors())
-      setInterval(async () => setSensors(await getSensors()), 10000)
+      setInterval(async () => setSensors(await getSensors()), 20000)
     })()
   }, [])
 
