@@ -1,4 +1,4 @@
-const API_BASE = 'http://127.0.0.1:3000/api'
+const API_BASE = 'http://10.10.10.100:3000/api'
 
 const basicFetch = async endpoint => {
     const result = await fetch(`${API_BASE}${endpoint}`)
