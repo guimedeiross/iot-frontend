@@ -11,7 +11,7 @@ export default ({ name, value, type }) => {
         let color = ''
         switch (type) {
             case 'umidade':
-                if (value > 90 || value < 60) {
+                if (value > 90 || value < 35) {
 
                     color = '#f2a654'
                 } else {
